@@ -5,9 +5,9 @@ import { useRouter } from 'next/router'
 const config: DocsThemeConfig = {
   logo: <span>myles.consulting</span>,
   project: {
-    link: 'https://github.com/dloewen4/myles-consulting',
+    link: 'https://github.com/dloewen/myles-consulting',
   },
-  docsRepositoryBase: 'https://github.com/dloewen4/myles-consulting',
+  docsRepositoryBase: 'https://github.com/dloewen/myles-consulting',
   footer: {
     text: <>
       © 2024 myles.consulting | Built with the <a href="https://nextra.site/">Nextra framework</a>
