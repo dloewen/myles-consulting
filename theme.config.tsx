@@ -1,18 +1,31 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>myles.consulting</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/dloewen4/myles-consulting',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/dloewen4/myles-consulting',
   footer: {
-    text: 'Nextra Docs Template',
+    text: '© 2024 myles.consulting',
   },
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s – myles.consulting',
+      }
+    }
+  },
+  editLink: {
+    component: null
+  },
+  feedback: {
+    content: null
+  }
 }
 
 export default config
+
