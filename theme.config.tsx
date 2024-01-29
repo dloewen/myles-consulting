@@ -10,8 +10,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/dloewen4/myles-consulting',
   footer: {
     text: <>
-      © 2024 myles.consulting
-      <small> | Using the <a href="https://nextra.site/">Nextra framework</a></small>
+      © 2024 myles.consulting | Built with the <a href="https://nextra.site/">Nextra framework</a>
     </>,
   },
   useNextSeoProps() {
