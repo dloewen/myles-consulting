@@ -9,7 +9,10 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/dloewen4/myles-consulting',
   footer: {
-    text: '© 2024 myles.consulting',
+    text: <>
+      © 2024 myles.consulting
+      <small> | Using the <a href="https://nextra.site/">Nextra framework</a></small>
+    </>,
   },
   useNextSeoProps() {
     const { asPath } = useRouter()
