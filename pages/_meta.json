@@ -3,8 +3,8 @@
     "title": "Home",
     "type": "page"
   },
-  "odoo-tutorials": {
-    "title": "Odoo Tutorials",
+  "odoo-developer-resources": {
+    "title": "Odoo Developer Resources",
     "type": "page"
   }
 }
